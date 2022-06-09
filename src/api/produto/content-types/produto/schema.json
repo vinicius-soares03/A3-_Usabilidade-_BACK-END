@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "produtos",
+  "info": {
+    "singularName": "produto",
+    "pluralName": "produtos",
+    "displayName": "Produto",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "id_item": {
+      "type": "string"
+    },
+    "nome": {
+      "type": "string"
+    },
+    "funcao": {
+      "type": "string"
+    },
+    "paciente_usando": {
+      "type": "string"
+    },
+    "validade": {
+      "type": "string"
+    },
+    "lote": {
+      "type": "string"
+    },
+    "quantidade": {
+      "type": "biginteger"
+    }
+  }
+}
